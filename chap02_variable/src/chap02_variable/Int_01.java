@@ -1,5 +1,4 @@
 package chap02_variable;
-
 public class Int_01 {
 
 	public static void main(String[] args) {
@@ -40,9 +39,12 @@ public class Int_01 {
 		number2 = 8;
 		
 		int sum = number+number2;
-		//System.out.println(number +"+" + number2 +"=" number+number2);
-		
+		System.out.println(number + "+" + number2 +"="+ number+number2);
+		System.out.println(number + "+" + number2 +"="+ sum);
+		//System.out.println(number + "+" + number2); << 여기까지는 됨 "=" << 여기서 오류뜨는거같은데
+		System.out.println(sum);
 		// 새로운 저장공간 만들기(기존에 있던 저장공간과 동일이름 안됨
+		System.out.println();
 		// int number = 10;
 		
 		/*
@@ -51,6 +53,24 @@ public class Int_01 {
 		 저장공간의 각 값들을 4칙연산하여 출력하기
 		 각각 5와 3을 넣기
 		*/
+		int num1 = 3;
+		int num2 = 5;
+		int add = num1+num2;
+		int sub = num2-num1;
+		int mul = num1*num2;
+		double div = num2/num1;
+	
+		
+		System.out.println(num1 + "+" + num2 + "=" + add);
+	    System.out.println(num2 + "-" + num1 + "=" + sub);
+		System.out.println(num1 + "*" + num2 + "=" + mul);
+		System.out.println(num2 + "/" + num1 + "=" + div);
+		
+		
+		  
+        
+		//int number = 3;
+		//System.out.println(number )
 		
 	}
 
