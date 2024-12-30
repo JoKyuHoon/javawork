@@ -6,7 +6,7 @@ public class Scanner_06 {
 	public static void main(String[] args) {
 		
 		Scanner scan = new Scanner(System.in);
-    /*
+    
 		// 사용자에게 무엇을 해야되는지 써주는것이 좋다
 		System.out.print("정수 입력 : ");
 		// 정수형(int)으로 받을때 nextInt()
@@ -39,14 +39,16 @@ public class Scanner_06 {
 		//			   문자열 : 1글자 이상
 		System.out.println("성의 이니셜은 : " + initial);
 		
-    */
-		System.out.println("정수 3개 입력(띄어쓰기로) >> ");
-		int num1 = scan.nextInt();
-		int num2 = scan.nextInt();
-		int num3 = scan.nextInt();
-		System.out.println("첫번째 숫자 : " + num1);
-		System.out.println("두번째 숫자 : " + num2);
-		System.out.println("세번째 숫자 : " + num3);
+    
+		/*
+		 * System.out.println("정수 3개 입력(띄어쓰기로) >> "); 
+		 * int num1 = scan.nextInt(); 
+		 * int num2 = scan.nextInt(); 
+		 * int num3 = scan.nextInt();
+		 * System.out.println("첫번째 숫자 : " + num1); 
+		 * System.out.println("두번째 숫자 : " + num2);
+		 * num2); System.out.println("세번째 숫자 : " + num3);
+		 */
 		
 		//레포트
 		/*
@@ -66,6 +68,31 @@ public class Scanner_06 {
 		 *    
 		 *    
 		 */
+	
+		
+//		System.out.println("정수 2개 입력(띄어쓰기로) >> ");
+//		int num3 = 7;
+//		int num4 = 5;
+//		
+//		int num3 = scan.nextInt();
+//		int num4 = scan.nextInt();
+//		
+//		System.out.println(num3 + "+" + num4 + "=" + (num3+num4));
+//		System.out.println(num3 + "-" + num4 + "=" + (num3-num4));
+//		System.out.println(num3 + "*" + num4 + "=" + num3*num4);
+//		System.out.println(num3 + "/" + num4 + "=" + num3/num4);
+//		
+//		System.out.print("연산자를 입력하세요 : ");
+//		char op = scan.next().charAt(0);
+//		if(op == '+')
+//			System.out.println(num3 + op + num4 + "=" + (num3+num4);
+//		else if(op == '-')	
+//			System.out.println(num3 + op + num4 + "=" + (num3-num4);
+//		else if(op == '*')	
+//			System.out.println(num3 + op + num4 + "=" + (num3*num4);
+//		else if(op == '/')	
+//			System.out.println(num3 + op + num4 + "=" + (num3/num4);
+//		
 		
 		
 }
