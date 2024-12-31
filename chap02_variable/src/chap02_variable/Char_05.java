@@ -8,7 +8,7 @@ public class Char_05 {
 		System.out.println(ch);
 		System.out.println((int)ch);
 
-		char ch2 = 'a' + 1; // 97+1 = 98 -> 유니코드는 'b
+		char ch2 = 'a' + 1; // 97+1 = 98 -> 유니코드는 'b'
 		System.out.println(ch2);
 		
 		char ch3 = 'A';

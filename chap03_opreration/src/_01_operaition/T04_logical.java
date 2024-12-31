@@ -5,7 +5,7 @@ public class T04_logical {
 	public static void main(String[] args) {
 		// 논리곱(and=&&)과 논리합(or=||)
 		/*
-		 x  y 논리곱(&&)   논리합(||)
+		 x  y  논리곱(&&)  논리합(||)
 		 0  0    0         0
 		 0  1    0         1
 		 1  0    0         1
@@ -29,8 +29,8 @@ public class T04_logical {
 		System.out.println(!b1);
 		System.out.println(!!b1);
 		
-		// A : 65~90, a : 97
-		char ch1 = 'K';
+		// A : 65~90, a : 97~
+		char ch1 = 'i';
 		System.out.println(ch1);
 		System.out.println("대문자인가? " + (ch1 >='A' && ch1 <='Z'));
 		System.out.println("소문자인가? " + (ch1 >='a' && ch1 <='z'));

@@ -8,32 +8,32 @@ public class Fommat_07 {
 		// 실수형 숫자를 그냥 쓰면 double형으로 인식하기 때문에 오류
 		float f1 = 0.10f; // f를 써야함
 //      4byte      double(8byte)
-		double d1 = 134234.23456789345;
+		double d1 = 1.23456789345;
 		System.out.printf("%d, %d, %d\n",10, 5, 1);
 //	                  각각  10,  5,  1 (,까지 출력한다)
-		System.out.printf("%f\n", 1.23456789); // 6자리까지이고 끝에 8이 나온 이유는 반올림했기때문에
+		System.out.printf("%f\n", 1.23456789); // 소수점 6자리까지이고 끝에 8이 나온 이유는 반올림했기때문에
 		System.out.printf("%f\n", f1);
 		System.out.printf("%8f\n", d1);
 		System.out.printf("%4.2f\n", d1);  // 총 4자리 중에 소수점 2째 자리 까지
 		System.out.printf("%.2f\n", d1);   // ★★★★★★★자주 쓰기 때문에 꼭 외우자!★★★★★★★
 		System.out.println("----------------------------------------------");
 		
-		System.out.printf("%s", url);
-		System.out.println("으악");
+		System.out.printf("%s", url); // string(문자열)
+		System.out.println("글씨");
 		
-		System.out.printf("%20s\n", url);  // 20자리 자리를 차지하기 때문에 오른쪽으로 정렬 된다.
+		System.out.printf("%20s\n", url);  // 문자열 20자리를 차지하기 때문에 오른쪽으로 정렬 된다.
 		
 		System.out.printf("%-20s", url); // -를 사용하면 왼쪽으로 정렬
-		System.out.println("배고파");
+		System.out.println("배고파");      // url포함 20자리를 차지 후 글자 출력
 		
 		System.out.printf("%.8s\n", url);   // . 을 붙이면 몇글짜까지 출력할지 정할 수있음 (.8s는 8글자만 출력)
 		System.out.println("----------------------------------------------");
+		 
+		int octNum = 010;  //(8진수)  10진수 : 8    앞에 0이 붙으면
+		int hexNum = 0x10; //(16진수) 10진수 : 16      0x가 붙으면   
+		int binNum = 0b10; //(2진수)  10진수 : 2       0b가 붙으면
 		
-		int octNum = 010;  //(8진수)  10진수 : 8
-		int hexNum = 0x10; //(16진수) 10진수 : 16 
-		int binNum = 0b10; //(2진수)  10진수 : 2
-		
-		System.out.printf("octNnm(8진수)은%o, (10진수)=%d\n", octNum, octNum);
+		System.out.printf("octNum(8진수)은%o, (10진수)=%d\n", octNum, octNum);
 		System.out.printf("hexNum(16진수)은%x, (10진수)=%d\n", hexNum, hexNum);
 		System.out.printf("%X\n", 10); // >> 10진수의 10을 16진수로 출력
 		System.out.printf("%x\n", 10); // >> X, x 대문자 소문자

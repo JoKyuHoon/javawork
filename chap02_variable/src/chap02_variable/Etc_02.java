@@ -9,7 +9,7 @@ public class Etc_02 {
 		boolean bool = false;
 		
 		String str2 = ""; // String은 문자를 안넣더고 되고, 한 글자만 넣어도 됨
-		char ch2 = ' '; // spacebar의 유니코드가 들어감. '' -> 아무것도 안넣으면 오류
+		char ch2 = ' '; // spacebar의 유니코드가 들어감. '' -> 아무것도 안넣으면 오류(유니코드에 있는것만 쓸 수 있기때문에)
 		
 		System.out.println(pi);
 		System.out.println(ch);

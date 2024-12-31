@@ -6,7 +6,8 @@ public class Scanner_06 {
 	public static void main(String[] args) {
 		
 		Scanner scan = new Scanner(System.in);
-    
+//                     객체   클래스    매개변수
+		
 		// 사용자에게 무엇을 해야되는지 써주는것이 좋다
 		System.out.print("정수 입력 : ");
 		// 정수형(int)으로 받을때 nextInt()

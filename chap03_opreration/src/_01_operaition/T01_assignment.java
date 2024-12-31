@@ -7,8 +7,8 @@ public class T01_assignment {
 		int result = 10 % 3;
 		System.out.println("10을 3으로 나눈 나머지 : " + result);
 		
-		result = result + 1;
-//      result += 1; >> 10번줄과 같음 >> 주석처리를 안하면 result는 3이 됨.
+		result += 1;
+//      result = result + 1; >> 10번줄과 같음 >> 주석처리를 안하면 result는 3이 됨.
 		
 		System.out.println("result + 1 = " + result);
 		
@@ -20,6 +20,10 @@ public class T01_assignment {
 		
 		result /= 2;  // result = result / 2
 		System.out.println("result / 2 = " + result);
+		
+		
+		System.out.println("--------------------------");
+		
 		
 		result = 7;
 		System.out.println("result = " + result);

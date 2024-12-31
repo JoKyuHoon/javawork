@@ -27,22 +27,22 @@ public class T02_increase {
 		// 증감연산자가 뒤에 붙으면 연산을 먼저하고 그 다음 나를 증가시킨다
 		num = 10;
 		num2 = 10;
-		result = num++ + num2++;
-		
+		result = num++ + num2++;    
+//		  20      11      11
 		System.out.println("num=" + num + ", num2=" + num2);
 		
 		num = 10;
 		num2 = 10;
-		result = ++num + num2++;
-		
+		result = ++num + num2++;  
+//		 21       11     11
 		num = 10;
 		num2 = 10;
-		result = num-- + ++num2;
-		
+		result = num-- + ++num2;  
+//		  21      9         11
 		num = 10;
 		num2 = 10;
-		result = --num + num2--;
-		
+		result = --num + num2--;  
+//		  19        9     9
 		
 	}
 

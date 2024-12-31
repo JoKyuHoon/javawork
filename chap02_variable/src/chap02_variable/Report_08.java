@@ -9,7 +9,6 @@ public class Report_08 {
 		// 총점과 평균(소수점2자리까지(반올림) 출력
 		
 		
-		
 		/*
 		 * double 국어 = 80; double 수학 = 82; 
 		 * double 컴퓨터 = 87;
