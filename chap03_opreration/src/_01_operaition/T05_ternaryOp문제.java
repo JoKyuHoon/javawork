@@ -10,7 +10,7 @@ public class T05_ternaryOp문제 {
 		
 	
 //		1. 사용자로부터 정수를 입력받아 양수인지 양수가 아닌지 판별하는 결과 출력
-       /*		
+       		
 		System.out.print("정수를 입력하시오 : ");
 		int a = scan.nextInt();
 		
@@ -20,7 +20,7 @@ public class T05_ternaryOp문제 {
    	    System.out.println(a > 0 ? "양수" : "양수x");
 // 	    ↕ 둘이 같음
    	    System.out.println(re1);
-   	    */
+   	    
 //		
 //		
    	    
