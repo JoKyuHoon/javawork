@@ -15,6 +15,7 @@ public class Print01 {
 		System.out.println("본인이름 : 조규훈");
 		System.out.println("더조은 아카데미 학원");
 		System.out.println("배고파");
+//       클래스  변수   메서드		
 		}
 
 }
