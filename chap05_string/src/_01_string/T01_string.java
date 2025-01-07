@@ -23,8 +23,8 @@ public class T01_string {
 		String city = sc.next();
 		
 		// if(city == "경기도")  -> city의 저장된 주소와 "경기도"가 같은가?
-		if(city.equals("경기도")) {
-			System.out.println("경기도사람");
+		if(city.equals("하남")) {
+			System.out.println("하남사람");
 		}
 		System.out.println("종료");
 

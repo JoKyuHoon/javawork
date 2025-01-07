@@ -16,7 +16,7 @@ public class T01_api_method {
 		
 	//2. 반환형이 있는 메소드
 	/*   반환형 메소드명() {
-		실행할 구문; return 반환형과 자료형이 같은 값;
+		실행할 구문; return 반환형과 자료형이 같은 값(int면 return도 int);
 		}	
 	*/
 	int print2() {

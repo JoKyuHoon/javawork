@@ -31,9 +31,9 @@ public class T01_api_op {
 		double re4 = num1 / num2;
 		return re4;
 	}
-	
-	
-	
-	
-	
+
+
+
+
+
 }
