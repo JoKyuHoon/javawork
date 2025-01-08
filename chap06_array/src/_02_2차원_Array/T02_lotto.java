@@ -37,7 +37,7 @@ public class T02_lotto {
 					System.out.print(lotto[i] + ", ");
 				}
 		
-
+  
 	}
 
 }

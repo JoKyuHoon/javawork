@@ -8,17 +8,14 @@ class ConOver2 {
 	// 다른 생산자 호출
 	ConOver2(){
 		this(1,1.0,"조규훈"); // 무조건 첫재줄에 넣어야 함.
-//		num = 1;
-//		dou = 1.0;
-//		name = "조규훈";
+
 		System.out.println("매개변수가 없는 생성자");			
 	}
 	
 	ConOver2(int num){	 // 지역변수
 		this(num,1.0,"조규훈");		
-//		this.num = num;  // this : 니 자신의 객체
-//		dou = 1.0;
-//		name = "조규훈";
+        // this : 니 자신의 객체
+
 		
 		System.out.println("매개변수가 1개인 생성자");
 		
@@ -78,8 +75,6 @@ class ConOver2 {
 	
 	
 }
-
-
 
 
 public class ConOver2_main {

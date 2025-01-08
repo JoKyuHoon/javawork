@@ -3,18 +3,16 @@ package _03_ex;
 public class Phone_main {
 
 	public static void main(String[] args) {
-		Phone  p1 = new Phone("아이폰14", "애플");
-
+		SmartPhone sp = new SmartPhone("애플", "스그");
+//		System.out.println(sp.model);
+//		System.out.println(sp.color);
 		
-		p1.bell();
-		p1.bell();
-		p1.hangUp();
-		p1.sendVoice("안녕하세요");
-		p1.receiveVoice("그래");
-		p1.hangOut();
-		
-		
-		
+		sp.bell();
+		sp.bell();
+		sp.hangUp();
+		sp.sendVoice("안녕하세요");
+		sp.receiveVoice("그래");
+		sp.hangOut();
 		
 		
 	}
