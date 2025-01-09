@@ -1,10 +1,10 @@
 package _02_car;
 
 public class Car {
-	String model;   // = 스타렉스
-	String company; // = 현대
-	boolean power;
-	int speed;
+	public	String model;   // = 스타렉스
+	public	String company; // = 현대
+	public	boolean power;
+	public	int speed;
 	
 //   ↓ 생성자
 	Car(String model, String company) {

@@ -2,7 +2,7 @@ package _01_access;
 
 public class T01_access {
 	int num = 5; // 같은 패키지 안에서 접근 가능
-	final double PI = 3.14; // 상수(변수명을 대문자) 
+	final double PI = 3.14; // 상수(는 변수명을 대문자 씀) 
 	private String name = "조규훈"; // 이 클래스 안에서만 접근가능
 	/*
 	/ setter, getter 메소드 : 변수 앞에 private에 접근 할 수 있도록 메소드 정의

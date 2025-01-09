@@ -23,6 +23,6 @@ public class T01_static_main {
 		System.out.println(T01_static.nameSt);
 		T01_static.printSt();
 	
-	    
+	
 	}
 }								

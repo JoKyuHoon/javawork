@@ -28,7 +28,7 @@ public class T01_static {
 	static void printSt() {
 		System.out.println("정적 메소드");
 		System.out.println(nameSt); // 정적필드 사용가능
-//		System.out.println(num);  << 사용 불가능
+//		System.out.println(num);  << 인스턴스필드 사용 불가능
 		// 인스턴스필드는 반드시 객체가 생성되어야 저장공간 확보
 		// 반드시 객체가 생성되었다는 전재가 없어서 사용 못함
 		

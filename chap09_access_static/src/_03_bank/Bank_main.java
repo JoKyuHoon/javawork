@@ -6,11 +6,11 @@ public class Bank_main {
 
 	public static void main(String[] args) {
 		Bank bank = new Bank();
-		bank.deposit(30000);
-		bank.withdraw(25000);
+		bank.deposit(0);
+		bank.withdraw(0);
 		
 		
-		bank.withdraw(5000);
+		bank.withdraw(0);
 		bank.getBanlance();
 		
 		/*

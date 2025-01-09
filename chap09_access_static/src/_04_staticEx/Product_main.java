@@ -7,15 +7,16 @@ public class Product_main {
 		
 		
 		
-		Product p1 = new Product(9845);
-		Product p2 = new Product(4861);
-		Product p3 = new Product(1298);
-		Product p4 = new Product(4815);
-		Product p5 = new Product(9845);
-		Product p6 = new Product(1575);
-		Product p7 = new Product("갯수");
+//		Product p1 = new Product(9845);
+//		Product p2 = new Product(4861);
+//		Product p3 = new Product(1298);
+	
+		Product p4 = new Product();
+		Product p5 = new Product();
 		
-		
+		System.out.println("p1 제품번호 : " + p4.sn);
+		System.out.println("p1 제품번호 : " + p5.sn);
+		System.out.println("생상된 총 제품의 갯수 : " + Product.count);
 		
 	}
 
