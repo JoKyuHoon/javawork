@@ -1,4 +1,4 @@
-package _02_polyBuyer;
+package _04_polyBuyerArraylist;
 
 public class Tv extends Product {
 

@@ -1,13 +1,13 @@
-package _02_polyBuyer;
+package _03_polyBuyerArray;
 
-public class Tv extends Product {
+public class Computer extends Product {
 
-	Tv(){
-		super(275);
+	Computer(){
+		super(120);
 	}
 	@Override
 	public String toString() {
-		return "Tv";
+		return "Computer";
 	}
 	
 }

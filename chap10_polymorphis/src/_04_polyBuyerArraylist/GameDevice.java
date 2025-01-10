@@ -1,15 +1,15 @@
-package _02_polyBuyer;
+package _04_polyBuyerArraylist;
 
-public class Tv extends Product {
+public class GameDevice extends Product {
 
-	Tv(){
-		super(275);
+	GameDevice(){
+		super(50);
 	}
 	@Override
 	public String toString() {
-		return "Tv";
+		return "GameDevice";
 	}
-	
+
 }
 
 //	Compurer c = new Computer();

@@ -1,9 +1,9 @@
 package _02_polyBuyer;
 
 public class Computer extends Product {
-	
+
 	Computer(){
-		super(300);
+		super(120);
 	}
 	@Override
 	public String toString() {

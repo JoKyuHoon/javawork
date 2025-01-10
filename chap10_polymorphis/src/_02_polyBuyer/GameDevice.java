@@ -1,15 +1,15 @@
 package _02_polyBuyer;
 
 public class GameDevice extends Product {
-	
+
 	GameDevice(){
-		super(1);
+		super(100);
 	}
 	@Override
 	public String toString() {
 		return "GameDevice";
 	}
-	
+
 }
 
 //	Compurer c = new Computer();
