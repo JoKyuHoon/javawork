@@ -21,7 +21,7 @@ abstract public class Phone {
 			
 	}
 	
- abstract void hangUp();
+abstract void hangUp();
     void sendVoice(String message) {
     	System.out.println("나 : " + message);
     }
@@ -30,7 +30,8 @@ abstract public class Phone {
     	
     	
     }
- abstract void hangOut();
+    
+abstract void hangOut();
 	
 	
 }

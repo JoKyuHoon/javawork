@@ -1,0 +1,30 @@
+package _07_ex;
+
+public interface Product {
+
+	// 전원을 켜고 끄는 추상 메서드
+	
+    void power();
+    int volume(int volume);
+    int channel(int channel);
+    
+    
+    
+    
+    static void AIspeak(String str){
+    	System.out.println(str);
+    }
+    
+    
+    default void search(String search) {
+    	System.out.println(search);
+    }
+    
+}
+	
+		   
+		   
+		   
+		      
+	
+

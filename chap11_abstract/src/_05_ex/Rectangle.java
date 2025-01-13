@@ -6,8 +6,6 @@ package _05_ex;
 	 
 	double rectangle();
 
-	
-	
-	   
+	 
  
 }

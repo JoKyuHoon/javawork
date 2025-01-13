@@ -3,7 +3,7 @@ package _05_ex;
  public class InterArea implements Rectangle, Triangle {
 	 
  
-	// 멤버변수 선언
+	 		// 멤버변수 선언
 			double height;						
 			double width;					
 
