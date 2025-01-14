@@ -24,6 +24,7 @@ public class Bank {
 	public void getBanlance() {
 		System.out.println("잔액 : " + balance);
 	}
+	
 	/*
 	int getBanlance() {
 		return balance;
