@@ -10,8 +10,6 @@ class Equals {
 	boolean b = value == ((Equals)obj).value;
 		return b;
 	}
-	
-	
 }
 
 public class T01_equals {
@@ -37,9 +35,9 @@ public class T01_equals {
 		
 		String str = "조규호";
 		String str2 = "조규호";
-		if(str.equals(str2))
+		if(str.equals(str2)) 
 			System.out.println("같다");
-		else
+		else 
 			System.out.println("다르다");
 		
 		if(str == str2)
