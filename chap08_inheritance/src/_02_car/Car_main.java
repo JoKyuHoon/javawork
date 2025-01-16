@@ -5,6 +5,7 @@ public class Car_main {
 	public static void main(String[] args) {
 		Ambulance am1 = new Ambulance("스타렉스","현대");
 		
+		
 		am1.power();
 		System.out.println("현재 속도 : " + am1.speedUp());
 		System.out.println("현재 속도 : " + am1.speedUp());

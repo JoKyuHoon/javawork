@@ -57,12 +57,12 @@ public class OpCasting_03 {
 		   int result6 = iNum1 / iNum2;
 		   System.out.println(result6);
 //		   3.2  iNum2 * dNum 한 결과를 변수에 넣고 출력하기
-		   double result7 = iNum2 * dNum;
+		   double result7 = (double) iNum2 * dNum;
 		   System.out.println(result7);
 //		   3.3  iNum1의 값이 10.0으로 출력되게 하기
-		   System.out.printf("%.1f\n", iNum1);
+		   System.out.println((double)iNum1);
 //		   3.4  iNum1 / iNum2 한 결과 소수점까지 나오게 출력하기
-		   double result8 = iNum1 / iNum2;
+		   double result8 = (double) iNum1 / iNum2;
 		   System.out.println(result8);
 //		   3.5  iNum1 / fNum 한 결과 3이 출력되게 하시오
 		   
