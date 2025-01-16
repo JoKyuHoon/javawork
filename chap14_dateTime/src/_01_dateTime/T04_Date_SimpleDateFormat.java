@@ -1,6 +1,7 @@
 package _01_dateTime;
 
 import java.text.ParseException;
+
 import java.text.SimpleDateFormat;
 
 import java.util.Date;
@@ -26,10 +27,14 @@ public class T04_Date_SimpleDateFormat {
 		SimpleDateFormat sdf2 = new SimpleDateFormat("yyyy-MM-dd");
 		System.out.println(sdf2.format(today));
 		
-		SimpleDateFormat sdf3 = new SimpleDateFormat("yy-M-d");
+		SimpleDateFormat sdf3 = new SimpleDateFormat("yyyy-M-d");
 		System.out.println(sdf3.format(today));
 		
-		/* hh : 시(12시간제 0~11), HH : 24시간제(0~23)
+		SimpleDateFormat sdf4 = new SimpleDateFormat("yy-MM-dd");
+		System.out.println(sdf4.format(today));
+		
+		/* 
+		 * hh : 시(12시간제 0~11), HH : 24시간제(0~23)
 		 * mm : 분
 		 * ss : 초
 		 */
