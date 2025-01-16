@@ -1,5 +1,6 @@
 package _01_ArrayList;
 
+<<<<<<< HEAD
 import java.util.ArrayList;
 import java.util.List;
 
@@ -45,3 +46,12 @@ List<Board> list = new ArrayList<>();
 		}	
 	}
 }
+=======
+public class T04_BoardArrayList {
+
+	public static void main(String[] args) {
+
+	}
+
+}
+>>>>>>> 61c6d8e4814332681690484d127576863b9787cf
