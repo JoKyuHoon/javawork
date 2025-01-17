@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class T02_ArrayList {
-<<<<<<< HEAD
+
 	
 	public static void main(String[] args) {
 			// 어떠한 객체도 다 받겠다
@@ -25,32 +25,4 @@ public class T02_ArrayList {
 		}
 
 	}
-=======
 
-	public static void main(String[] args) {
-		// 어떠한 객체도 다 받겠다
-		// 권장하지 않음
-		List list = new ArrayList<>();
-		list.add(1);
-		list.add(2.34);
-		list.add("5");
-		
-		System.out.println(list.get(0));
-		
-		// 반환형인 Object로 받아야 됨
-		Object num = list.get(0);
-		
-		int num1 = (int)list.get(0);
-		
-		double dou2 = (double)list.get(1);
-		
-		String str = (String)list.get(2);
-		int str2 = Integer.parseInt((String)list.get(2)); // > str을 int형으로 변환
-		
-		
-		
-		
-	}
-
-}
->>>>>>> 61c6d8e4814332681690484d127576863b9787cf
