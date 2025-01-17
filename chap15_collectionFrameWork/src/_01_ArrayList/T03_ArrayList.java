@@ -8,7 +8,7 @@ import java.util.List;
 public class T03_ArrayList {
 
 	public static void main(String[] args) {
-		List list = new ArrayList<>();
+	List list = new ArrayList<>();
 		
 		list.add(5);
 		list.add(8);
@@ -41,5 +41,30 @@ public class T03_ArrayList {
 		System.out.println("-----------------------------------");
 		
 		// retainAll(객체들) : 객체들에 있는것만 빼고 나머지 삭제
-}
+		System.out.println("list에서 list2와 겹치는 부분만 남기고 나머지 삭제 : " + list.retainAll(list2));
+		System.out.println("list : " + list);
+		System.out.println("list2 : " + list2);
+		
+		list2.add(1, 1);
+		list2.add(4, 8);
+		System.out.println("list2 : " + list2);
+
+		// list2에서 list에 있는 것들만 삭제
+		for(int i=0; i<list2.size(); i++) {
+			if(list.contains(list2.get(i))) {
+				list2.remove(i);
+				i--;
+			}
+		}
+		/*
+		for(int i=list2.size()-1; i>=0; i--) {
+			if(list.contains(list2.get(i))) {
+				list2.remove(i);
+			}
+		}
+		*/
+		System.out.println(list);
+		System.out.println(list2);
+
+	}
 }

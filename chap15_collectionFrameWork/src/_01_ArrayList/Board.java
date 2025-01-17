@@ -3,7 +3,6 @@ package _01_ArrayList;
 public class Board {
 	private String subject;
 	private String writer;
-
 	private String content;
 	
 	Board() {
