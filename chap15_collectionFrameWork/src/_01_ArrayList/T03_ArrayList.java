@@ -8,7 +8,7 @@ import java.util.List;
 public class T03_ArrayList {
 
 	public static void main(String[] args) {
-	List list = new ArrayList<>();
+		List list = new ArrayList<>();
 		
 		list.add(5);
 		list.add(8);

@@ -1,9 +1,9 @@
 package _03_ex;
 
 public class Book {
-	String title;
-	String author;
-	String publisher;
+	private String title;
+	private String author;
+	private String publisher;
 	
 	public Book() {
 		

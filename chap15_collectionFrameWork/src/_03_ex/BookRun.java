@@ -5,6 +5,8 @@ public class BookRun {
 	public static void main(String[] args) {
 		LibraryController lc = new LibraryController(new Member("홍길동", 23, "남자"));
 		
+		lc.info();
+		
 		lc.insertBook();
 		System.out.println(lc.selectAll());
 		
