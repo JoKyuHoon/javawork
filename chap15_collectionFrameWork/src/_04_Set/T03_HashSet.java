@@ -21,7 +21,11 @@ class Member {
 		}
 		return false;
 	
-	//	@Override
+	}
+
+	@Override
+	public String toString() {
+		return "Member [name=" + name + ", age=" + age + "]";
 	}
 	
 }
@@ -30,8 +34,12 @@ public class T03_HashSet {
 
 	public static void main(String[] args) {
 		Set<Member> set = new HashSet<Member>();
-		set.add(new Member("조규호", 20));
-		set.add(new Member("조규호", 20));
+		set.add(new Member("조규호", 27));
+		set.add(new Member("조규훈", 30));
+		set.add(new Member("방성환", 27));
+		set.add(new Member("김동현", 28));
+		set.add(new Member("임기준", 30));
+		set.add(new Member("허재윤", 28));
 		
 		System.out.println("총 객체 수 : " + set.size());
 		System.out.println(set);
