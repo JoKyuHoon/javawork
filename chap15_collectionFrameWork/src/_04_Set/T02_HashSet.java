@@ -27,7 +27,7 @@ public class T02_HashSet {
 		Iterator<A> iter = set1.iterator();
 		while(iter.hasNext()) {
 			A str = iter.next();
-			System.out.print(str.aa + " ");
+			System.out.println(str.aa + " ");
 		}
 		System.out.println("-----------------------");
 		

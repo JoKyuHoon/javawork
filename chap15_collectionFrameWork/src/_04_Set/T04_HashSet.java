@@ -23,7 +23,7 @@ public class T04_HashSet {
 			System.out.print("[" + i + "]");
 		}
 		
-		
+		System.out.println();
 		
 		//정렬이 필요하면 List변경
 		List<Integer> list1 = new ArrayList(set);

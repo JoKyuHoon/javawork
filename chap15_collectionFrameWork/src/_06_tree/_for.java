@@ -6,7 +6,7 @@ public class _for {
 	
 		int result = 0;
 		
-		for(int i=1; i <= 0; i++) {
+		for(int i=1; i <= 10; i++) {
 			
 			result += i;
 			
