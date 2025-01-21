@@ -11,7 +11,6 @@ public class Book implements Comparable<Book> {
 		
 	}
 	
-	
 	public Book(String title, String author, String publisher) {
 		this.title = title;
 		this.author = author;
@@ -46,10 +45,6 @@ public class Book implements Comparable<Book> {
 		
 		return "제목 : " + title + "/저자 : " + author + "/출판사 : " + publisher;
 	}
-	
-	
-	
-	
 	
 	@Override
 	public int hashCode() {

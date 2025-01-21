@@ -4,7 +4,7 @@ public class T01_main {
 
 	public static void main(String[] args) {
 		T01_api_method m1 = new T01_api_method();
-		m1.print1();
+//		m1.print1();
 //               () 가 붙으면 메소드임
 //               () 가 없으면 변수		
 	
